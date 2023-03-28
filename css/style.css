@@ -1,0 +1,46 @@
+* {
+ margin: 0;
+ font-family: sans-serif;
+}
+body {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.container {
+ position: relative;
+ margin-top: 10%;
+ padding: 2em;
+ width: 20%;
+ height: auto;
+ background-color: #b09090;
+ border-radius: 20px;
+}
+.container h1 {
+ text-align: center;
+}
+.container .field{
+ font-size:20px ;
+}
+.container .field input {
+ width: 100%;
+ padding: .5em;
+ border-radius: 6px;
+ border: none;
+}
+input[type='submit'] {
+ width: 5em;
+ margin-top: 1em;
+ padding: .7em;
+ margin-left: calc(50% - 2.5em);
+}
+.container  p {
+ text-align: center;
+ margin-top: 1em;
+}
+.alert {
+ margin-top: .5em;
+ padding: 1em;
+ margin-bottom: .5em;
+}
